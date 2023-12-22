@@ -10,8 +10,7 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 
-
-class window3 : AppCompatActivity() {
+class Window3 : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,8 +23,6 @@ class window3 : AppCompatActivity() {
         val fecha = findViewById<TextView>(R.id.textView4)
         val mostrarFecha = findViewById<Button>(R.id.btnMostrarFecha)
 
-
-
         mostrarFecha.setOnClickListener(){
             val current = Calendar.getInstance().time
             val formatter = SimpleDateFormat.getDateTimeInstance()
@@ -34,12 +31,11 @@ class window3 : AppCompatActivity() {
         }
     }
 
-    fun ventanaRegresar3(){
+    private fun ventanaRegresar3(){
         val botonRegresar3 = findViewById<Button>(R.id.btnRegresar3)
         botonRegresar3.setOnClickListener(){
-            val saltarVentanaRegresar3: Intent = Intent(this, MainActivity::class.java)
+            val saltarVentanaRegresar3 = Intent(this, MainActivity::class.java)
             startActivity(saltarVentanaRegresar3)
         }
     }
-
 }

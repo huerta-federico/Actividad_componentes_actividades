@@ -13,13 +13,13 @@
         android:theme="@style/Theme.ActividadSuplementaria"
         tools:targetApi="31">
         <activity
-            android:name="com.example.componentes_actividades.window3"
+            android:name="com.example.componentes_actividades.Window3"
             android:exported="false" />
         <activity
-            android:name="com.example.componentes_actividades.window2"
+            android:name="com.example.componentes_actividades.Window2"
             android:exported="false" />
         <activity
-            android:name="com.example.componentes_actividades.window4"
+            android:name="com.example.componentes_actividades.Window4"
             android:exported="false" />
         <activity
             android:name="com.example.componentes_actividades.MainActivity"
