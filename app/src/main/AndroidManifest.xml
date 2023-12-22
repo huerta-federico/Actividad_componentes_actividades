@@ -19,6 +19,9 @@
             android:name="com.example.componentes_actividades.window2"
             android:exported="false" />
         <activity
+            android:name="com.example.componentes_actividades.window4"
+            android:exported="false" />
+        <activity
             android:name="com.example.componentes_actividades.MainActivity"
             android:exported="true">
             <intent-filter>

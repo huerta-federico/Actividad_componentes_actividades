@@ -35,20 +35,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="@string/fecha"
-        app:layout_constraintEnd_toEndOf="@+id/btnBienvenido"
-        app:layout_constraintStart_toStartOf="@+id/btnBienvenido"
+        app:layout_constraintEnd_toEndOf="@+id/btnImagen"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/btnImagen"
         app:layout_constraintTop_toBottomOf="@+id/btnBienvenido" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="52dp"
         android:text="componentes_actividades"
-        app:layout_constraintEnd_toEndOf="@+id/btnFecha"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="@+id/btnFecha"
-        app:layout_constraintTop_toBottomOf="@+id/btnFecha" />
+        app:layout_constraintEnd_toEndOf="@+id/btnImagen"
+        app:layout_constraintStart_toStartOf="@+id/btnImagen"
+        app:layout_constraintTop_toBottomOf="@+id/btnImagen" />
 
     <TextView
         android:id="@+id/textView6"
@@ -71,5 +71,16 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnImagen"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:text="Imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFecha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

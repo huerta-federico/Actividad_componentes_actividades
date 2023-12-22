@@ -9,10 +9,6 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import com.example.componentes_actividades.R
-import java.time.LocalDate
-import java.util.Date
-import java.util.Locale
 
 
 class window3 : AppCompatActivity() {
@@ -20,7 +16,7 @@ class window3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_window3)
-        ventanaRegresar2()
+        ventanaRegresar3()
         mostrarFecha()
     }
     @RequiresApi(Build.VERSION_CODES.O)
@@ -38,11 +34,11 @@ class window3 : AppCompatActivity() {
         }
     }
 
-    fun ventanaRegresar2(){
-        val botonRegresar2 = findViewById<Button>(R.id.btnRegresar2)
-        botonRegresar2.setOnClickListener(){
-            val saltarVentanaRegresar2: Intent = Intent(this, MainActivity::class.java)
-            startActivity(saltarVentanaRegresar2)
+    fun ventanaRegresar3(){
+        val botonRegresar3 = findViewById<Button>(R.id.btnRegresar3)
+        botonRegresar3.setOnClickListener(){
+            val saltarVentanaRegresar3: Intent = Intent(this, MainActivity::class.java)
+            startActivity(saltarVentanaRegresar3)
         }
     }
 
